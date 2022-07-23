@@ -1,0 +1,41 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+div {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(90, 2, 173);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-LarnU {
+  border-radius: 50%;
+  background-color: rgb(25, 1, 49);
+  width: 90px;
+  height: 90px;
+  border-color: rgb(28, 0, 55) solid;
+  color: rgb(243, 239, 247);
+  transition: 2s;
+  box-shadow: 0 0 40px rgb(160, 112, 179);
+}
+
+.btn-LarnU:hover {
+  background-color:  rgb(174, 107, 236);
+  box-shadow: 0 0 80px rgb(244, 56, 116);
+  transition: 0.4s;
+  animation: animacion ease .3s  normal none;
+  color: rgb(25, 1, 49);
+}
+
+@keyframes animacion {
+  from {
+    transform: translateY(-5px);
+  }
+
+}
+  
